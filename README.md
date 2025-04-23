@@ -1,27 +1,37 @@
-# BolgApp
+📰 BlogApp - Application de blog moderne avec Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.15.
+✨ Fonctions principales
+📝 Affichage d'une liste d'articles avec pagination
 
-## Development server
+🔍 Lecture des articles dans une page dédiée
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+➕ Création de nouveaux articles via un formulaire réactif
 
-## Code scaffolding
+✏️ Édition et suppression d'articles existants
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🔐 Authentification (optionnel selon les versions futures)
 
-## Build
+📱 Interface responsive adaptée à tous les écrans
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🎯 Objectifs du projet
+Maîtriser Angular et son architecture modulaire
 
-## Running unit tests
+Gérer la navigation avec le routing Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Utiliser les formulaires réactifs pour la saisie des articles
 
-## Running end-to-end tests
+Faire des appels HTTP vers une API REST (ex : JSONPlaceholder ou backend personnalisé)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Organiser le code de manière claire avec des composants, services et modules
 
-## Further help
+🚀 Technologies utilisées
+Angular 17+
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+TypeScript
+
+HTML / CSS (avec Bootstrap)
+
+RxJS
+
+API REST
+
