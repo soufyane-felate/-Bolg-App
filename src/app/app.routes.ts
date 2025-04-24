@@ -6,7 +6,8 @@ import { PostDetailComponent } from './pages/post-detail/post-detail.component';
 import { PostListComponent } from './pages/post-list/post-list.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'posts', component: PostListComponent },
   { path: 'post/:id', component: PostDetailComponent },
   { path: 'login', component: LoginComponent },

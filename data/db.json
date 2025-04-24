@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "JSON-Server",
+      "date": "25-09-2024",
+      "image":"https://i.pinimg.com/736x/dd/13/bc/dd13bcc6005a9af92b310ee13e81d0b8.jpg",
+      "description":"ebfj ewbif ebu webi uih2iuh  y3ehr9ewgriue 2wyhi "
+    },
+    {
+      "id": 1,
+      "title": "JSON-Server",
+      "date": "25-09-2024",
+      "image":"https://i.pinimg.com/736x/dd/13/bc/dd13bcc6005a9af92b310ee13e81d0b8.jpg",
+      "description":"ebfj ewbif ebu webi uih2iuh  y3ehr9ewgriue 2wyhi "
+    },
+    {
+      "id": 1,
+      "title": "JSON-Server",
+      "date": "25-09-2024",
+      "image":"https://i.pinimg.com/736x/dd/13/bc/dd13bcc6005a9af92b310ee13e81d0b8.jpg",
+      "description":"ebfj ewbif ebu webi uih2iuh  y3ehr9ewgriue 2wyhi "
+    },
+    {
+      "id": 1,
+      "title": "JSON-Server",
+      "date": "25-09-2024",
+      "image":"https://i.pinimg.com/736x/dd/13/bc/dd13bcc6005a9af92b310ee13e81d0b8.jpg",
+      "description":"ebfj ewbif ebu webi uih2iuh  y3ehr9ewgriue 2wyhi "
+    }
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Great post!",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Informative!",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "Amit Kumar"
+  }
+}

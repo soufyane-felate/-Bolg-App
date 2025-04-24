@@ -1,43 +1,22 @@
+.center-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-.navbar-collapse {
-    transition: all 0.3s ease;
-  }
-  
+.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
-  .nav-link.active {
-    font-weight: 600;
-    position: relative;
-    color: white !important;
-  }
-  
-  .nav-link.active:after {
-    content: '';
-    position: absolute;
-    bottom: 2px;
-    left: 10%;
-    width: 80%;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.8);
-  }
-  
- 
-  @media (max-width: 992px) {
-    .navbar-nav {
-      margin-top: 10px;
-    }
-    
-    .nav-item {
-      margin-bottom: 5px;
-    }
-    
-    .btn-outline-light {
-      margin-bottom: 10px;
-      width: 100%;
-    }
-  }
-  
+.custom-brand::first-letter {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
 
-  .fas {
-    width: 20px;
-    text-align: center;
+@media (max-width: 991.98px) {
+  .center-nav {
+    position: static;
+    transform: none;
   }
+}
