@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de Post</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="file"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    textarea {
+      height: 100px;
+      resize: vertical;
+    }
+    
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background: #4b8bda;
+      color: white;
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+    }
+    
+    button:hover {
+      background: #2e21e7;
+    }
+    
+    .file-info {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="postTitle">Titre du post</label>
+        <input type="text" id="postTitle" placeholder="Entrez le titre" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="postImage">Image (JPEG, PNG - max 2MB)</label>
+        <input type="file" id="postImage" accept=".jpg,.jpeg,.png" required>
+        <div class="file-info">Format acceptés : JPG, PNG (taille max : 2MB)</div>
+      </div>
+      
+      <div class="form-group">
+        <label for="postDescription">Description</label>
+        <textarea id="postDescription" placeholder="Contenu du post..." required></textarea>
+      </div>
+      
+      <button type="submit">Publier</button>
+    </form>
+  </div>
+</body>
+</html>
