@@ -1,11 +1,15 @@
 
   <div class="container">
     <header>
-      <h1 class="site-title">Blog Minimal</h1>
-      <p class="site-description">Des articles simples sur les technologies modernes</p>
+      <div class="header-content">
+        <h1 class="site-title">Blog Minimal</h1>
+        <p class="site-description">Des articles simples sur les technologies modernes</p>
+      </div>
+      <button class="add-post-btn"> <a routerLink="/new">Ajouter Poste </a></button>
     </header>
 
     <main class="articles-container">
+
       <article class="article-card" *ngFor="let post of posts">
         <div class="article-image"
           [style.background]="post.image ? 'url(' + post.image + ')' : 'linear-gradient(135deg, #2563eb, #1e40af)'">
