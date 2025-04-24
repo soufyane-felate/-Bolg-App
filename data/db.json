@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "JSON-Server",
       "description": "ebfj ewbif ebu webi uih2iuh  y3ehr9ewgriue 2wyhi ",
       "date": "25-09-2024",
@@ -33,6 +33,42 @@
       "image": "https://i.pinimg.com/736x/52/a0/35/52a0350bafa8414de0941640eb2be17e.jpg",
       "description": "tfyguhijokpl`guio",
       "date": 1745513586504
+    },
+    {
+      "id": "66be",
+      "title": "fffffff",
+      "image": "ffffff",
+      "description": "gffjk hhyhy",
+      "date": 1745524151264
+    },
+    {
+      "id": "da8d",
+      "title": "klsd",
+      "image": "",
+      "description": "m,kje",
+      "date": "2025-04-24T20:02:29.118Z"
+    },
+    {
+      "id": "b47f",
+      "title": "bnb",
+      "image": "bn",
+      "description": "jkj",
+      "date": "2025-04-24T20:28:00.132Z"
+    },
+    {
+      "id": "8229",
+      "title": "nhm",
+      "image": "",
+      "description": "jk",
+      "date": "2025-04-24T20:28:18.572Z"
+    },
+    {
+      "id": "d18d",
+      "title": "wydad casablanca",
+      "image": "",
+      "description": "wydad to word cup 2025",
+      "date": "2025-04-24T22:06:14.337Z",
+      "categorie": "sport"
     }
   ]
 }

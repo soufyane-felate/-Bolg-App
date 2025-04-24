@@ -1,0 +1,20 @@
+<div *ngIf="post" class="post-details-container">
+    <div class="post-header">
+      <img [src]="post.image" alt="{{ post.title }}" *ngIf="post.image">
+      <h1>{{ post.title }}</h1>
+      <p>{{ post.description }}</p>
+    </div>
+  
+    <div class="post-content">
+      <div class="post-meta">
+        <span class="post-author">Auteur: Hamed lkaget</span>
+        <span class="post-date">Publié le: {{ post.date }}</span>
+      </div>
+      <p>{{ post.content }}</p>
+    </div>
+  </div>
+  
+  <div *ngIf="!post" class="loading-state">
+    <p>Chargement du post...</p>
+  </div>
+  

@@ -15,10 +15,12 @@ export class CrudPostComponent {
     title: '',
     image: '',
     description: '',
-    date:Date.now()
+    date:new Date(),
+    categorie:''
+
   };
 
-  constructor(private postService: PostService) {}
+  constructor(private postService: PostService ) {}
 
   onSubmit() {
     this.postService.createPost(this.post).subscribe(
