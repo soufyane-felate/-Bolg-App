@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./pages/navbar/navbar.component";
+import { Router } from 'express';
+
 
 @Component({
   selector: 'app-root',
@@ -12,3 +14,7 @@ import { NavbarComponent } from "./pages/navbar/navbar.component";
 export class AppComponent {
   title = 'Bolg_App';
 }
+
+
+
+
