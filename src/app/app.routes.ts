@@ -11,6 +11,7 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'posts', component: PostListComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'post/:id', component: PostDetailComponent },
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
