@@ -19,5 +19,5 @@ export const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'new', component: CrudPostComponent },
   { path: 'details/:id', loadComponent: () => import('./pages/details/details.component').then(m => m.DetailsComponent) },
-
+  { path: '**', redirectTo: 'home' }
 ];
