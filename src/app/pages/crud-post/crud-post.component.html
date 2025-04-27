@@ -1,5 +1,5 @@
 
-<form (ngSubmit)="onSubmit()" #postForm="ngForm">
+<form (ngSubmit)="onSubmit()" >
   <div class="form-group">
     <label for="postTitle">Titre du post</label>
     <input type="text" id="postTitle" name="title" [(ngModel)]="post.title" placeholder="Entrez le titre" required>
