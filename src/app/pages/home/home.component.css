@@ -1,0 +1,80 @@
+.about-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  .about-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, #3498db, #9b59b6);
+    bottom: -10px;
+    left: 20%;
+    border-radius: 3px;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  
+  .about-header {
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  button {
+    animation: fadeIn 1s ease-out 0.3s both;
+  }

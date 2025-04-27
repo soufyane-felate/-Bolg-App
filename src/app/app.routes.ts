@@ -12,10 +12,8 @@ export const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent,  canActivate : [AuthGuard]},
- 
-  { path: 'posts', component: PostListComponent },
+ { path: 'posts', component: PostListComponent },
   { path: 'post/:id', component: PostDetailComponent },
-  { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'new', component: CrudPostComponent },
   { path: 'details/:id', loadComponent: () => import('./pages/details/details.component').then(m => m.DetailsComponent) },
