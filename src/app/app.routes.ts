@@ -6,15 +6,18 @@ import { PostDetailComponent } from './pages/post-detail/post-detail.component';
 import { PostListComponent } from './pages/post-list/post-list.component';
 import { CrudPostComponent } from './pages/crud-post/crud-post.component';
 import { DetailsComponent } from './pages/details/details.component';
+import { AuthGuard } from './guards/auth.guard';
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'posts', component: PostListComponent },
+  { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent,  canActivate : [AuthGuard]},
+ 
+  { path: 'posts', component: PostListComponent },
   { path: 'post/:id', component: PostDetailComponent },
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'new', component: CrudPostComponent },
   { path: 'details/:id', loadComponent: () => import('./pages/details/details.component').then(m => m.DetailsComponent) },
+
 ];
